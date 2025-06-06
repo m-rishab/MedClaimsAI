@@ -41,7 +41,7 @@
 
 ## 🖼️ Demo
 
-![Demo GIF](assets/demo.gif)
+![Demo GIF]([assets/demo.gif](https://github.com/user-attachments/assets/17325d7d-bc6b-4363-9595-57b73647f562))
 
 > Enter query: What does CARC 22 mean?
 
