@@ -1,6 +1,3 @@
-# Enhanced Terminal RAG Chat System
-# Optimized for better terminal interaction with advanced healthcare code processing
-
 import os
 import sys
 import numpy as np
@@ -146,7 +143,6 @@ class HealthcareCodeExtractor:
         """Enhance the query by adding context about extracted codes"""
         enhancements = []
         
-        # Add specific code context
         if extracted_codes['carc_codes']:
             codes_str = ', '.join(extracted_codes['carc_codes'])
             enhancements.append(f"Specifically explain CARC codes: {codes_str}")
@@ -360,7 +356,7 @@ class SmartPDFProcessor:
         
         return filtered_chunks
 
-# Enhanced Vector Store
+# Vector Store
 class EnhancedVectorStore:
     def __init__(self, embedding_model_name: str = "all-MiniLM-L6-v2"):
         print_info(f"Loading embedding model: {embedding_model_name}")
@@ -459,7 +455,7 @@ class EnhancedVectorStore:
         
         return False
 
-# Enhanced Confidence Scoring
+# Confidence Scoring
 class AdvancedConfidenceScorer:
     """
     Calculate more accurate confidence scores based on multiple factors
@@ -599,7 +595,7 @@ class AdvancedConfidenceScorer:
         
         return list(set(codes))  # Remove duplicates
 
-# Enhanced RAG Chatbot
+# RAG Chatbot
 class EnhancedTerminalRAGChatbot:
     def __init__(self, config: EnhancedRAGConfig, vector_store: EnhancedVectorStore):
         self.config = config
@@ -701,7 +697,7 @@ Focus on actionable advice and specific next steps.
                 "boosted_sources": sum(1 for doc in retrieved_docs if doc.get('boosted', False))
             }
             
-            # Add to chat history
+            # chat history
             self.chat_history.append({
                 "query": query,
                 "response": response_text,
