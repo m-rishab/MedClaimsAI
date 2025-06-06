@@ -43,7 +43,17 @@
 
 ![Demo GIF](assets/demo.gif)
 
-> *Example: Real-time query of CARC code `45` with follow-up suggestions and confidence scoring.*
+> > Enter query: What does CARC 22 mean?
+
+Gemini AI:
+CARC 22 - "This care may be covered by another payer per coordination of benefits."
+
+Confidence: 92%
+
+Follow-up Suggestions:
+• What documentation is needed for CARC 22?
+• Can CARC 22 be appealed?
+• What payer types are usually involved?
 
 ---
 
