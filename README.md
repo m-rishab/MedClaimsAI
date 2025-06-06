@@ -43,7 +43,7 @@
 
 ![Demo GIF](assets/demo.gif)
 
-> > Enter query: What does CARC 22 mean?
+> Enter query: What does CARC 22 mean?
 
 Gemini AI:
 CARC 22 - "This care may be covered by another payer per coordination of benefits."
