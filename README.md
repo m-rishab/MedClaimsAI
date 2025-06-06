@@ -1,4 +1,4 @@
-# MedClaimsAI 🏥💊
+# MedClaimsAI 
 
 <div align="center">
 
